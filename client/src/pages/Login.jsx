@@ -149,7 +149,7 @@ function Login() {
                 </form>
 
                 <div className="login-footer">
-                    <span>New to Campus Marketplace?</span>
+                    <span>New to GreenCraft Marketplace?</span>
 
                     <button
                         onClick={() => navigate("/register")}

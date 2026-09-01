@@ -25,12 +25,10 @@ function Admin() {
                     </div>
 
                     <div className="ml-3">
-                        <h1 className="font-bold text-white">
-                            Campus
-                        </h1>
-                        <p className="text-xs text-slate-500">
-                            Marketplace
-                        </p>
+                        <h1 className="font-bold">GreenCraft</h1>
+<p className="text-xs text-slate-500">
+    Marketplace
+</p>
                     </div>
                 </div>
 
