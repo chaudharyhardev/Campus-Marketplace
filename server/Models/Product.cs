@@ -1,4 +1,3 @@
-
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
@@ -26,7 +25,13 @@ public class Product
     public int Stock { get; set; }
 
     [BsonElement("imageUrl")]
-    public string? ImageUrl { get; set; }
+    public string ImageUrl { get; set; } = string.Empty;
+
+    [BsonElement("sellerId")]
+    public string SellerId { get; set; } = string.Empty;
+
+    [BsonElement("sellerName")]
+    public string SellerName { get; set; } = string.Empty;
 
     [BsonElement("createdAt")]
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

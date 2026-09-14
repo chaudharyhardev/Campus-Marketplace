@@ -39,4 +39,14 @@ public class MongoDbService
             return _database.GetCollection<Product>("products");
         }
     }
+    
+public IMongoCollection<Order> Orders
+{
+    get
+    {
+        return _database.GetCollection<Order>("orders");
+    }
+}
+
+
 }
